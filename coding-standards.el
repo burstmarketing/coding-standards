@@ -37,3 +37,5 @@
                (tab-stop)))
 
 (setq-default indent-tabs-mode nil)
+
+(provide 'coding-standards)
