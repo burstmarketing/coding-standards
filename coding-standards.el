@@ -8,7 +8,7 @@
   (interactive)
   (unless (and (buffer-file-name)
                (string-equal (file-name-extension (buffer-file-name)) "md"))
-    (whitespace-cleanup)
+    (delete-trailing-whitespace)
     (untabify (point-min) (point-max))
     (set-buffer-file-coding-system 'utf-8)))
 
