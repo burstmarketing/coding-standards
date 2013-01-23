@@ -24,8 +24,6 @@
                            (setq tab-width 2)
                            (setq c-basic-offset 2)))
 
-(require 'flymake)
-(add-hook 'php-mode-hook 'flymake-mode-on)
 
 (require 'align)
 (add-to-list 'align-rules-list
